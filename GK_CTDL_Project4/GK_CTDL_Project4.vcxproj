@@ -19,10 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
     <ClCompile Include="Sources\Donhang.cpp" />
     <ClCompile Include="Sources\Hanghoa.cpp" />
     <ClCompile Include="Sources\Login.cpp" />
+    <ClCompile Include="Sources\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sources\Donhang.h" />

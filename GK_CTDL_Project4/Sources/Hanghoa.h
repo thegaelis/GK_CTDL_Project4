@@ -3,7 +3,7 @@
 #include<string>
 using namespace std;
  
-class hanghoa {
+class Hanghoa {
 	string mahang;
 	string tenhang;
 	string nsx;
@@ -12,10 +12,10 @@ class hanghoa {
 	string ngaynhap;
 	int soluong;
 public:
-	hanghoa();
-	~hanghoa();
-	friend istream& operator>>(istream& in, hanghoa& h);
-	friend ostream& operator<<(ostream& out, hanghoa h);
+	Hanghoa();
+	~Hanghoa();
+	friend istream& operator>>(istream& in, Hanghoa& h);
+	friend ostream& operator<<(ostream& out, Hanghoa h);
 	string getmahang();
 	string gettenhang();
     string getmau();

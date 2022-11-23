@@ -1,5 +1,5 @@
 #include"Hanghoa.h"
-hanghoa::hanghoa() {
+Hanghoa::Hanghoa() {
 	mahang = "";
 	tenhang = "";
 	nsx = "";
@@ -8,8 +8,8 @@ hanghoa::hanghoa() {
 	ngaynhap = "";
 	soluong = 0;
 }
-hanghoa::~hanghoa() { ; }
-istream& operator>>(istream& in, hanghoa& h) {
+Hanghoa::~Hanghoa() { ; }
+istream& operator>>(istream& in, Hanghoa& h) {
 	cout << "ma hang:"; getline(in, h.mahang);
 	cout << "ten hang:"; getline(in, h.tenhang);
 	cout << "ngay san xuat:"; getline(in, h.nsx);
@@ -20,7 +20,7 @@ istream& operator>>(istream& in, hanghoa& h) {
 	cout << "so luong:"; in >> h.soluong;
 	return in;
 }
-ostream& operator<<(ostream& out, hanghoa h) {
+ostream& operator<<(ostream& out, Hanghoa h) {
 	out << "ma hang:" << h.mahang << endl;
 	out << "ten hang:" << h.tenhang << endl;
 	out << "ngay san xuat:" << h.nsx << endl;
@@ -31,18 +31,18 @@ ostream& operator<<(ostream& out, hanghoa h) {
 	return out;
 
 }
-string hanghoa::getmahang() {
+string Hanghoa::getmahang() {
 	return mahang;
 }
-string hanghoa::gettenhang() {
+string Hanghoa::gettenhang() {
 	return tenhang;
 }
-string hanghoa::getmau(){
+string Hanghoa::getmau(){
     return mau;
 }
-int hanghoa::getgiaban() {
+int Hanghoa::getgiaban() {
 	return giaban;
 }
-int hanghoa::getsoluong(){{
+int Hanghoa::getsoluong(){{
     return soluong;
 }}

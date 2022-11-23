@@ -13,7 +13,7 @@
 }
 
 
-void Donhang:: addItem(hanghoa currentItem) {
+void Donhang:: addItem(Hanghoa currentItem) {
     itemArray[items_count] = currentItem;
     items_count++;
 }

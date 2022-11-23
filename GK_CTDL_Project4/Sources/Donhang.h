@@ -18,6 +18,7 @@ private:
 public:
 	Donhang();
 	~Donhang();
+	void addItem(Hanghoa currentItem);
     void GettotalPrice();
 	friend istream& operator >> (istream& is, Donhang& p);
 	friend ostream& operator << (ostream& os, Donhang p);
